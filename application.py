@@ -9,7 +9,7 @@ import boto3
 application = flask.Flask(__name__)
 application.config['TEMPLATES_AUTO_RELOAD'] = True
 
-uploads_dir = "/tmp/uplily/"
+uploads_dir = "/"
 if not os.path.exists(uploads_dir):
     os.mkdir(uploads_dir)
 
